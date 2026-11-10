@@ -1,0 +1,23 @@
+{
+  "name": "dexter",
+  "version": "0.1.1",
+  "description": "Dexter fan theme: Dark Passenger / Mask / Code stat bars, spinner verbs, tips, soft sounds and a break timer.",
+  "license": "MIT",
+  "author": { "name": "I3rixon" },
+  "repository": "https://github.com/I3rixon/claude-dexter",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "passengerThreshold": {
+      "type": "number",
+      "title": "Dark Passenger threshold (%)",
+      "description": "Context fill at which the Dark Passenger turns restless and asks for a /compact or handoff.",
+      "default": 30
+    },
+    "sounds": {
+      "type": "boolean",
+      "title": "Sounds",
+      "description": "Play a soft note when a turn ends and two notes when a permission is needed.",
+      "default": true
+    }
+  }
+}
