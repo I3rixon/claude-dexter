@@ -2,6 +2,8 @@
 
 A Claude Code mod themed on a certain Miami blood spatter analyst with a dark hobby. Your session stats become his: the Dark Passenger grows as context fills, the Mask wears thin with the 5-hour limit, and the letters of Harry's Code go dark as the weekly limit is used.
 
+![Dexter stat bars above the prompt](docs/screenshot.png)
+
 Fan theme. All lines are original, not quotes from the show. Sounds are synthesized. Not affiliated with or endorsed by the show's creators or network.
 
 ## Install
