@@ -96,7 +96,7 @@ function fireBreak($: EngineInterface) {
   const sound = soundsOn ? `${$.plugin.root}/sounds/break.wav` : ''
   const args = `'-NoProfile','-ExecutionPolicy','Bypass','-STA','-WindowStyle','Hidden','-File','${script}','-Index','${rand(BREAK_LINES)}','-Sound','${sound}'`
   void $.process
-    .run(['powershell', '-NoProfile', '-NonInteractive', '-Command', `Start-Process powershell -ArgumentList ${args}`], { timeoutMs: 20_000 })
+    .run(['powershell', '-NoProfile', '-NonInteractive', '-Command', `Start-Process powershell -WindowStyle Hidden -ArgumentList ${args}`], { timeoutMs: 20_000 })
     .catch(err => $.ui.log(`dexter: break popup failed: ${String(err)}`, { to: 'debug' }))
 }
 
